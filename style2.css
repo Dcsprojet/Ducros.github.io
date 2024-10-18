@@ -1,0 +1,90 @@
+/* Style global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style du corps de la page */
+body {
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Style pour l'en-tête */
+header {
+    background-color: #3f7598;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.8em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+/* Style pour les paragraphes */
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Style pour les liens */
+a {
+    color: #4c8cfa;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Images de logo spécifiques (par ex. logo-GP) */
+.Section.centre img {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.Section.centre p {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.2em;
+}
+
+/* Sections avec du contenu supplémentaire */
+.Section.centre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
